@@ -15,13 +15,14 @@ wire [15:0] IM1500;
 
 wire [5:0] IM3126,IM0500;
 
-wire [4:0] IM2521,IM2016,IM1511,a3;
+wire [4:0] IM2521,IM2016,IM1511,a3,IM106;
 
 wire [3:0] ALUOp;
 
 wire [1:0] NPCOp,WRSel,WDSel;
 
-wire RFWr,ASel,BSel,Zero,EXTOp,MemWrite;
+wire RFWr,Zero,EXTOp,MemWrite;
+wire [1:0]ASel,BSel,
 //debug signals
 wire [31:0] debug_wb_pc;
 wire debug_wb_rf_wen;
@@ -59,7 +60,8 @@ IMEM IMEM(.clk(clk),
           .IM2500(IM2500),
           .IM1500(IM1500),
           .IM3126(IM3126),
-          .IM0500(IM0500));
+          .IM0500(IM0500),
+          .IM106(IM106));
 RF RF(.clk(clk),
       .reset(reset),
       .a1(IM2521),
@@ -77,6 +79,7 @@ RF RF(.clk(clk),
       .rd2(RD2),
       .wd(WD));
 ALU ALU(.ALUOp(ALUOp),
+        .IM106(IM106),
         .RD1(RD1),
         .RD2(RD2),
         .Ext(EXTDO),

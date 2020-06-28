@@ -1,19 +1,50 @@
 `timescale 1ns / 1ps
 
 module ALU(
-    input [3:0]ALUOp,//0000.add /0001.sub /0010.and/ 0011.or/ 0100.xor /0101.nor /0110.sll /0111.srl /1000.sra 
+    input [3:0]ALUOp,//0000.add /0001.sub /0010.and/ 0011.or/ 0100.xor /0101.nor /0110.sll /0111.srl /1000.sra
+                    //1001. SLT/ 1010. BGTZ 
     input [31:0]RD1,
     input [31:0]RD2,
     input [31:0]Ext,
-    input ASel,
-    input BSel,
+    input [1:0]ASel,
+    input [1:0]BSel,
+    input [4:0] IM106,
     output reg Zero,
     output reg [31:0] C,
-    output [31:0]A,B
+    output reg [31:0]A,B
     );
     reg sign;
-    assign A = ASel?16:RD1;//0ÎªRD1£¬1Îª0x10¼´16£¬luiÖ¸Áî
-    assign B = BSel?Ext:RD2;
+    always@(*)
+    begin
+        case(ASel)
+        2'b00:
+        begin
+            A = RD1;
+        end
+        2'b01:
+        begin
+            A = 32'h10;
+        end
+        2'b10:
+        begin
+            A = RD2;
+        end
+        endcase
+        case(BSel)
+        2'b00:
+        begin
+            B = RD2;
+        end
+        2'b01:
+        begin
+            B = Ext;
+        end
+        2'b10:
+        begin
+            B = IM106;
+        end
+        endcase        
+    end
     always@(*)
     begin
 		      case(ALUOp)
@@ -60,8 +91,12 @@ module ALU(
 					     C = ($signed(B)) >>>A;
 					     Zero = (C == 0)?1 : 0;
                      end
-                     4'b1001:begin
+                     4'b1001:begin//sltu
                         C = (A<B)? 1:0;
+                        Zero = (C == 0)?1 : 0;
+                    end
+                     4'b1010:begin//slt
+                        C = ($signed(A)<$signed(B))? 1:0;
                         Zero = (C == 0)?1 : 0;
                     end
 		      endcase

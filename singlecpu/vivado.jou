@@ -1,0 +1,19 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Sun Jun 28 21:51:00 2020
+# Process ID: 11196
+# Current directory: D:/singlecpu
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent10056 D:\singlecpu\1.xpr
+# Log file: D:/singlecpu/vivado.log
+# Journal file: D:/singlecpu\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/singlecpu/1.xpr
+launch_simulation
+open_wave_config D:/singlecpu/mycpu_tb_behav.wcfg
+source mycpu_tb.tcl
+update_compile_order -fileset sources_1
+run all
+close_sim

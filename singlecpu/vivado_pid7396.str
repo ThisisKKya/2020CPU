@@ -1,0 +1,472 @@
+/*
+
+Xilinx Vivado v2018.3 (64-bit) [Major: 2018, Minor: 3]
+SW Build: 2405991 on Thu Dec  6 23:38:27 MST 2018
+IP Build: 2404404 on Fri Dec  7 01:43:56 MST 2018
+
+Process ID (PID): 7396
+License: Customer
+
+Current time: 	Sun Jun 28 12:02:27 GMT+08:00 2020
+Time zone: 	GMT+08:00 (GMT+08:00)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 8
+
+Screen size: 1920x1080
+Screen resolution (DPI): 96
+Available screens: 2
+Available disk space: 37 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	9.0.4 64-bit
+Java home: 	D:/Vivado/Vivado/2018.3/tps/win64/jre9.0.4
+Java executable location: 	D:/Vivado/Vivado/2018.3/tps/win64/jre9.0.4/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 3 GB
+
+
+User name: 	18011
+User home directory: C:/Users/18011
+User working directory: D:/PDF学习资料/大学课程/计算机设计与实践/CPU/2020CPU/单周期
+User country: 	CN
+User language: 	zh
+User locale: 	zh_CN
+
+RDI_BASEROOT: D:/Vivado/Vivado
+HDI_APPROOT: D:/Vivado/Vivado/2018.3
+RDI_DATADIR: D:/Vivado/Vivado/2018.3/data
+RDI_BINDIR: D:/Vivado/Vivado/2018.3/bin
+
+Vivado preferences file location: C:/Users/18011/AppData/Roaming/Xilinx/Vivado/2018.3/vivado.xml
+Vivado preferences directory: C:/Users/18011/AppData/Roaming/Xilinx/Vivado/2018.3/
+Vivado layouts directory: C:/Users/18011/AppData/Roaming/Xilinx/Vivado/2018.3/layouts
+PlanAhead jar file location: 	D:/Vivado/Vivado/2018.3/lib/classes/planAhead.jar
+Vivado log file location: 	D:/PDF学习资料/大学课程/计算机设计与实践/CPU/2020CPU/单周期/vivado.log
+Vivado journal file location: 	D:/PDF学习资料/大学课程/计算机设计与实践/CPU/2020CPU/单周期/vivado.jou
+Engine tmp dir: 	D:/PDF学习资料/大学课程/计算机设计与实践/CPU/2020CPU/单周期/.Xil/Vivado-7396-LAPTOP-GB7G15EL
+
+Xilinx Environment Variables
+----------------------------
+XILINX: D:/Vivado/Vivado/2018.3/ids_lite/ISE
+XILINX_DSP: D:/Vivado/Vivado/2018.3/ids_lite/ISE
+XILINX_PLANAHEAD: D:/Vivado/Vivado/2018.3
+XILINX_SDK: D:/Vivado/SDK/2018.3
+XILINX_VIVADO: D:/Vivado/Vivado/2018.3
+XILINX_VIVADO_HLS: D:/Vivado/Vivado/2018.3
+
+
+GUI allocated memory:	128 MB
+GUI max memory:		3,072 MB
+Engine allocated memory: 551 MB
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// bx (cp):  Open Project : addNotify
+// Opening Vivado Project: D:\PDF学习资料\大学课程\计算机设计与实践\CPU\2020CPU\单周期\1.xpr. Version: Vivado v2018.3 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project D:/PDF学习资料/大学课程/计算机设计与实践/CPU/2020CPU/单周期/1.xpr 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 566 MB. GUI used memory: 40 MB. Current time: 6/28/20, 12:02:29 PM GMT+08:00
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 91 MB (+93057kb) [00:00:26]
+// [Engine Memory]: 605 MB (+483310kb) [00:00:26]
+// [GUI Memory]: 98 MB (+2632kb) [00:00:28]
+// WARNING: HEventQueue.dispatchEvent() is taking  3992 ms.
+// Tcl Message: open_project D:/PDF学习资料/大学课程/计算机设计与实践/CPU/2020CPU/单周期/1.xpr 
+// Tcl Message: INFO: [Project 1-313] Project file moved from 'D:/Lab4_Handouts_20200504_161045/1' since last save. 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Vivado/Vivado/2018.3/data/ip'. 
+// [Engine Memory]: 666 MB (+31325kb) [00:00:29]
+// Tcl Message: open_project: Time (s): cpu = 00:00:12 ; elapsed = 00:00:17 . Memory (MB): peak = 692.902 ; gain = 112.047 
+// Project name: 1; location: D:/PDF学习资料/大学课程/计算机设计与实践/CPU/2020CPU/单周期; part: xc7a100tfgg484-1
+dismissDialog("Open Project"); // bx (cp)
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+// [GUI Memory]: 107 MB (+3545kb) [00:00:56]
+// PAPropertyPanels.initPanels (top.v) elapsed time: 0.2s
+// Elapsed time: 91 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top (top.v)]", 1, true); // B (D, cp) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top (top.v), CtrlUnit : CtrlUnit (CtrlUnit.v)]", 2, false, false, false, false, false, true); // B (D, cp) - Double Click
+// Elapsed time: 20 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top (top.v), CtrlUnit : CtrlUnit (CtrlUnit.v)]", 2, false); // B (D, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top (top.v), CtrlUnit : CtrlUnit (CtrlUnit.v)]", 2, false); // B (D, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top (top.v), CtrlUnit : CtrlUnit (CtrlUnit.v)]", 2, false, false, false, false, false, true); // B (D, cp) - Double Click
+selectCodeEditor("CtrlUnit.v", 829, 352); // cl (w, cp)
+// [GUI Memory]: 112 MB (+652kb) [00:03:31]
+// HMemoryUtils.trashcanNow. Engine heap size: 688 MB. GUI used memory: 53 MB. Current time: 6/28/20, 12:06:44 PM GMT+08:00
+// Elapsed time: 187 seconds
+selectCodeEditor("CtrlUnit.v", 355, 302); // cl (w, cp)
+selectCodeEditor("CtrlUnit.v", 347, 316); // cl (w, cp)
+// Elapsed time: 35 seconds
+selectCodeEditor("CtrlUnit.v", 148, 322); // cl (w, cp)
+selectCodeEditor("CtrlUnit.v", 134, 338); // cl (w, cp)
+selectCodeEditor("CtrlUnit.v", 162, 328); // cl (w, cp)
+// Elapsed time: 21 seconds
+selectCodeEditor("CtrlUnit.v", 143, 370); // cl (w, cp)
+typeControlKey((HResource) null, "CtrlUnit.v", 'c'); // cl (w, cp)
+selectCodeEditor("CtrlUnit.v", 487, 362); // cl (w, cp)
+typeControlKey((HResource) null, "CtrlUnit.v", 'c'); // cl (w, cp)
+selectCodeEditor("CtrlUnit.v", 197, 325); // cl (w, cp)
+typeControlKey((HResource) null, "CtrlUnit.v", 'v'); // cl (w, cp)
+selectCodeEditor("CtrlUnit.v", 146, 328); // cl (w, cp)
+selectCodeEditor("CtrlUnit.v", 250, 334); // cl (w, cp)
+selectCodeEditor("CtrlUnit.v", 357, 323); // cl (w, cp)
+selectCodeEditor("CtrlUnit.v", 490, 332); // cl (w, cp)
+// Elapsed time: 15 seconds
+typeControlKey(null, null, 'z');
+selectCodeEditor("CtrlUnit.v", 490, 324); // cl (w, cp)
+typeControlKey((HResource) null, "CtrlUnit.v", 'v'); // cl (w, cp)
+selectCodeEditor("CtrlUnit.v", 55, 388); // cl (w, cp)
+selectCodeEditor("CtrlUnit.v", 158, 386); // cl (w, cp)
+// Elapsed time: 20 seconds
+selectCodeEditor("CtrlUnit.v", 520, 368); // cl (w, cp)
+typeControlKey((HResource) null, "CtrlUnit.v", 'c'); // cl (w, cp)
+// HMemoryUtils.trashcanNow. Engine heap size: 710 MB. GUI used memory: 54 MB. Current time: 6/28/20, 12:10:14 PM GMT+08:00
+selectCodeEditor("CtrlUnit.v", 183, 383); // cl (w, cp)
+typeControlKey((HResource) null, "CtrlUnit.v", 'v'); // cl (w, cp)
+selectCodeEditor("CtrlUnit.v", 402, 386); // cl (w, cp)
+// [Engine Memory]: 710 MB (+12056kb) [00:08:06]
+selectCodeEditor("CtrlUnit.v", 469, 395); // cl (w, cp)
+selectCodeEditor("CtrlUnit.v", 93, 345); // cl (w, cp)
+selectCodeEditor("CtrlUnit.v", 44, 406); // cl (w, cp)
+// Elapsed time: 12 seconds
+selectCodeEditor("CtrlUnit.v", 526, 377); // cl (w, cp)
+selectCodeEditor("CtrlUnit.v", 529, 433); // cl (w, cp)
+selectCodeEditor("CtrlUnit.v", 467, 391); // cl (w, cp)
+typeControlKey((HResource) null, "CtrlUnit.v", 'c'); // cl (w, cp)
+selectCodeEditor("CtrlUnit.v", 144, 404); // cl (w, cp)
+typeControlKey((HResource) null, "CtrlUnit.v", 'v'); // cl (w, cp)
+selectCodeEditor("CtrlUnit.v", 198, 400); // cl (w, cp)
+selectCodeEditor("CtrlUnit.v", 147, 407); // cl (w, cp)
+// Elapsed time: 34 seconds
+selectCodeEditor("CtrlUnit.v", 498, 406); // cl (w, cp)
+typeControlKey((HResource) null, "CtrlUnit.v", 'c'); // cl (w, cp)
+selectCodeEditor("CtrlUnit.v", 63, 427); // cl (w, cp)
+typeControlKey((HResource) null, "CtrlUnit.v", 'v'); // cl (w, cp)
+typeControlKey((HResource) null, "CtrlUnit.v", 'v'); // cl (w, cp)
+selectCodeEditor("CtrlUnit.v", 83, 415); // cl (w, cp)
+// Elapsed time: 256 seconds
+selectCodeEditor("CtrlUnit.v", 421, 435); // cl (w, cp)
+// Elapsed time: 15 seconds
+selectCodeEditor("CtrlUnit.v", 504, 435); // cl (w, cp)
+selectCodeEditor("CtrlUnit.v", 495, 461); // cl (w, cp)
+selectCodeEditor("CtrlUnit.v", 365, 369); // cl (w, cp)
+typeControlKey((HResource) null, "CtrlUnit.v", 'c'); // cl (w, cp)
+selectCodeEditor("CtrlUnit.v", 65, 279); // cl (w, cp)
+typeControlKey((HResource) null, "CtrlUnit.v", 'v'); // cl (w, cp)
+selectCodeEditor("CtrlUnit.v", 90, 276); // cl (w, cp)
+selectCodeEditor("CtrlUnit.v", 316, 268); // cl (w, cp)
+// Elapsed time: 11 seconds
+selectCodeEditor("CtrlUnit.v", 396, 274); // cl (w, cp)
+selectCodeEditor("CtrlUnit.v", 41, 302); // cl (w, cp)
+typeControlKey((HResource) null, "CtrlUnit.v", 'v'); // cl (w, cp)
+selectCodeEditor("CtrlUnit.v", 89, 294); // cl (w, cp)
+selectCodeEditor("CtrlUnit.v", 426, 284); // cl (w, cp)
+selectCodeEditor("CtrlUnit.v", 278, 290); // cl (w, cp)
+selectCodeEditor("CtrlUnit.v", 311, 289); // cl (w, cp)
+selectCodeEditor("CtrlUnit.v", 316, 290); // cl (w, cp)
+selectCodeEditor("CtrlUnit.v", 435, 291); // cl (w, cp)
+selectCodeEditor("CtrlUnit.v", 197, 424); // cl (w, cp)
+selectCodeEditor("CtrlUnit.v", 177, 304); // cl (w, cp)
+// Elapsed time: 10 seconds
+selectCodeEditor("CtrlUnit.v", 410, 370); // cl (w, cp)
+// Elapsed time: 21 seconds
+selectCodeEditor("CtrlUnit.v", 768, 444); // cl (w, cp)
+// Elapsed time: 46 seconds
+selectCodeEditor("CtrlUnit.v", 347, 229); // cl (w, cp)
+// Elapsed time: 27 seconds
+selectCodeEditor("CtrlUnit.v", 230, 421); // cl (w, cp)
+// Elapsed time: 13 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top (top.v), ALU : ALU (ALU.v)]", 7, false); // B (D, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top (top.v), ALU : ALU (ALU.v)]", 7, false); // B (D, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top (top.v), ALU : ALU (ALU.v)]", 7, false); // B (D, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top (top.v), ALU : ALU (ALU.v)]", 7, false, false, false, false, false, true); // B (D, cp) - Double Click
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ALU.v", 3); // k (j, cp)
+selectMenuItem((HResource) null, "New Vertical Group"); // JMenuItem (JidePopupMenu)
+selectButton(PAResourceCommand.PACommandNames_TOGGLE_VIEW_NAV, (String) null); // B (E, cp)
+// Run Command: PAResourceCommand.PACommandNames_TOGGLE_VIEW_NAV
+selectCodeEditor("ALU.v", 444, 68); // cl (w, cp)
+selectCodeEditor("ALU.v", 618, 74); // cl (w, cp)
+selectCodeEditor("ALU.v", 655, 70); // cl (w, cp)
+// Elapsed time: 26 seconds
+selectCodeEditor("CtrlUnit.v", 196, 310); // cl (w, cp)
+selectCodeEditor("CtrlUnit.v", 196, 310, false, false, false, false, true); // cl (w, cp) - Double Click
+// Elapsed time: 65 seconds
+selectCodeEditor("ALU.v", 408, 256); // cl (w, cp)
+selectCodeEditor("ALU.v", 616, 65); // cl (w, cp)
+// Elapsed time: 255 seconds
+selectCodeEditor("ALU.v", 249, 404); // cl (w, cp)
+// Elapsed time: 13 seconds
+selectCodeEditor("ALU.v", 656, 273); // cl (w, cp)
+// Elapsed time: 27 seconds
+selectCodeEditor("ALU.v", 198, 432); // cl (w, cp)
+// Elapsed time: 78 seconds
+selectCodeEditor("ALU.v", 209, 460); // cl (w, cp)
+selectCodeEditor("ALU.v", 209, 449); // cl (w, cp)
+// Elapsed time: 157 seconds
+selectCodeEditor("ALU.v", 258, 468); // cl (w, cp)
+selectCodeEditor("ALU.v", 180, 440); // cl (w, cp)
+// Elapsed time: 27 seconds
+selectCodeEditor("ALU.v", 239, 438); // cl (w, cp)
+// Elapsed time: 32 seconds
+selectCodeEditor("ALU.v", 182, 444); // cl (w, cp)
+// Elapsed time: 39 seconds
+selectCodeEditor("ALU.v", 171, 439); // cl (w, cp)
+// Elapsed time: 25 seconds
+selectCodeEditor("ALU.v", 246, 437); // cl (w, cp)
+selectCodeEditor("ALU.v", 212, 453); // cl (w, cp)
+selectCodeEditor("ALU.v", 192, 447); // cl (w, cp)
+selectCodeEditor("ALU.v", 481, 343); // cl (w, cp)
+// Elapsed time: 52 seconds
+selectCodeEditor("CtrlUnit.v", 439, 202); // cl (w, cp)
+// Elapsed time: 38 seconds
+selectCodeEditor("CtrlUnit.v", 448, 196); // cl (w, cp)
+// Elapsed time: 11 seconds
+selectCodeEditor("ALU.v", 270, 228); // cl (w, cp)
+selectCodeEditor("ALU.v", 246, 316); // cl (w, cp)
+// Elapsed time: 13 seconds
+selectCodeEditor("ALU.v", 274, 278); // cl (w, cp)
+selectCodeEditor("ALU.v", 150, 414); // cl (w, cp)
+typeControlKey((HResource) null, "ALU.v", 'c'); // cl (w, cp)
+selectCodeEditor("ALU.v", 227, 408); // cl (w, cp)
+typeControlKey((HResource) null, "ALU.v", 'v'); // cl (w, cp)
+selectCodeEditor("ALU.v", 232, 414); // cl (w, cp)
+selectCodeEditor("ALU.v", 254, 414); // cl (w, cp)
+selectCodeEditor("ALU.v", 238, 410); // cl (w, cp)
+selectCodeEditor("ALU.v", 244, 410); // cl (w, cp)
+selectCodeEditor("ALU.v", 163, 404); // cl (w, cp)
+selectCodeEditor("ALU.v", 172, 428); // cl (w, cp)
+// Elapsed time: 10 seconds
+selectCodeEditor("ALU.v", 242, 428); // cl (w, cp)
+selectCodeEditor("ALU.v", 426, 413); // cl (w, cp)
+selectCodeEditor("ALU.v", 394, 436); // cl (w, cp)
+// Elapsed time: 19 seconds
+selectCodeEditor("CtrlUnit.v", 450, 198); // cl (w, cp)
+// Elapsed time: 26 seconds
+selectCodeEditor("CtrlUnit.v", 223, 256); // cl (w, cp)
+// Elapsed time: 60 seconds
+selectCodeEditor("CtrlUnit.v", 351, 212); // cl (w, cp)
+// Elapsed time: 11 seconds
+selectCodeEditor("ALU.v", 310, 411); // cl (w, cp)
+selectCodeEditor("CtrlUnit.v", 254, 264); // cl (w, cp)
+selectCodeEditor("CtrlUnit.v", 425, 216); // cl (w, cp)
+// Elapsed time: 20 seconds
+selectCodeEditor("CtrlUnit.v", 441, 201); // cl (w, cp)
+selectCodeEditor("CtrlUnit.v", 441, 201, false, false, false, false, true); // cl (w, cp) - Double Click
+typeControlKey((HResource) null, "CtrlUnit.v", 'c'); // cl (w, cp)
+selectCodeEditor("CtrlUnit.v", 322, 259); // cl (w, cp)
+typeControlKey((HResource) null, "CtrlUnit.v", 'v'); // cl (w, cp)
+// Elapsed time: 84 seconds
+selectCodeEditor("ALU.v", 567, 344); // cl (w, cp)
+// Elapsed time: 76 seconds
+selectCodeEditor("CtrlUnit.v", 87, 308); // cl (w, cp)
+selectCodeEditor("CtrlUnit.v", 81, 420); // cl (w, cp)
+selectCodeEditor("CtrlUnit.v", 82, 425); // cl (w, cp)
+selectCodeEditor("CtrlUnit.v", 82, 425, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("CtrlUnit.v", 153, 270); // cl (w, cp)
+selectCodeEditor("CtrlUnit.v", 154, 279); // cl (w, cp)
+selectCodeEditor("CtrlUnit.v", 140, 313); // cl (w, cp)
+typeControlKey((HResource) null, "CtrlUnit.v", 'v'); // cl (w, cp)
+selectCodeEditor("CtrlUnit.v", 24, 328); // cl (w, cp)
+// HMemoryUtils.trashcanNow. Engine heap size: 724 MB. GUI used memory: 54 MB. Current time: 6/28/20, 12:40:14 PM GMT+08:00
+// Elapsed time: 20 seconds
+selectCodeEditor("CtrlUnit.v", 497, 318); // cl (w, cp)
+selectCodeEditor("CtrlUnit.v", 88, 292); // cl (w, cp)
+selectCodeEditor("CtrlUnit.v", 178, 283); // cl (w, cp)
+selectCodeEditor("CtrlUnit.v", 178, 293); // cl (w, cp)
+// Elapsed time: 29 seconds
+selectCodeEditor("CtrlUnit.v", 248, 310); // cl (w, cp)
+typeControlKey((HResource) null, "CtrlUnit.v", 'c'); // cl (w, cp)
+selectCodeEditor("CtrlUnit.v", 516, 323); // cl (w, cp)
+typeControlKey((HResource) null, "CtrlUnit.v", 'v'); // cl (w, cp)
+selectCodeEditor("CtrlUnit.v", 72, 346); // cl (w, cp)
+// Elapsed time: 23 seconds
+selectCodeEditor("CtrlUnit.v", 223, 102); // cl (w, cp)
+// Elapsed time: 29 seconds
+selectCodeEditor("CtrlUnit.v", 354, 100); // cl (w, cp)
+// Elapsed time: 118 seconds
+selectCodeEditor("CtrlUnit.v", 587, 226); // cl (w, cp)
+selectCodeEditor("CtrlUnit.v", 348, 112); // cl (w, cp)
+// Elapsed time: 28 seconds
+selectCodeEditor("CtrlUnit.v", 464, 80); // cl (w, cp)
+selectCodeEditor("CtrlUnit.v", 453, 103); // cl (w, cp)
+// Elapsed time: 12 seconds
+selectCodeEditor("CtrlUnit.v", 74, 162); // cl (w, cp)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 75 seconds
+selectCodeEditor("ALU.v", 176, 313); // cl (w, cp)
+// Elapsed time: 75 seconds
+selectCodeEditor("ALU.v", 61, 244); // cl (w, cp)
+selectCodeEditor("ALU.v", 238, 377); // cl (w, cp)
+selectCodeEditor("ALU.v", 187, 388); // cl (w, cp)
+// Elapsed time: 65 seconds
+typeControlKey(null, null, 'z');
+// Elapsed time: 34 seconds
+selectCodeEditor("ALU.v", 113, 468); // cl (w, cp)
+typeControlKey((HResource) null, "ALU.v", 'c'); // cl (w, cp)
+selectCodeEditor("ALU.v", 142, 398); // cl (w, cp)
+selectCodeEditor("ALU.v", 142, 398); // cl (w, cp)
+selectCodeEditor("ALU.v", 140, 398, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("ALU.v", 95, 408); // cl (w, cp)
+selectCodeEditor("ALU.v", 3, 434); // cl (w, cp)
+typeControlKey((HResource) null, "ALU.v", 'v'); // cl (w, cp)
+selectCodeEditor("ALU.v", 87, 392); // cl (w, cp)
+selectCodeEditor("ALU.v", 79, 448); // cl (w, cp)
+selectCodeEditor("ALU.v", 110, 452); // cl (w, cp)
+selectCodeEditor("ALU.v", 78, 406); // cl (w, cp)
+selectCodeEditor("ALU.v", 124, 464); // cl (w, cp)
+selectCodeEditor("ALU.v", 244, 395); // cl (w, cp)
+selectCodeEditor("ALU.v", 75, 424); // cl (w, cp)
+// Elapsed time: 14 seconds
+selectCodeEditor("ALU.v", 112, 429); // cl (w, cp)
+selectCodeEditor("ALU.v", 112, 180); // cl (w, cp)
+// Elapsed time: 32 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "top.v", 1); // k (j, cp)
+selectCodeEditor("top.v", 237, 158); // cl (w, cp)
+// Elapsed time: 16 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top (top.v), IMEM : IMEM (IMEM.v)]", 5, true); // B (D, cp) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top (top.v), IMEM : IMEM (IMEM.v)]", 5, true, false, false, false, false, true); // B (D, cp) - Double Click - Node
+selectCodeEditor("IMEM.v", 148, 383); // cl (w, cp)
+selectCodeEditor("IMEM.v", 224, 304); // cl (w, cp)
+selectCodeEditor("IMEM.v", 235, 308); // cl (w, cp)
+selectCodeEditor("IMEM.v", 235, 308, false, false, false, false, true); // cl (w, cp) - Double Click
+typeControlKey((HResource) null, "IMEM.v", 'c'); // cl (w, cp)
+selectCodeEditor("IMEM.v", 368, 356); // cl (w, cp)
+selectCodeEditor("IMEM.v", 214, 347); // cl (w, cp)
+typeControlKey((HResource) null, "IMEM.v", 'v'); // cl (w, cp)
+// Elapsed time: 11 seconds
+selectCodeEditor("IMEM.v", 165, 346); // cl (w, cp)
+selectCodeEditor("IMEM.v", 271, 376); // cl (w, cp)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "top.v", 1); // k (j, cp)
+selectCodeEditor("top.v", 191, 256); // cl (w, cp)
+// Elapsed time: 11 seconds
+selectCodeEditor("top.v", 215, 278); // cl (w, cp)
+selectCodeEditor("top.v", 122, 381); // cl (w, cp)
+selectCodeEditor("top.v", 122, 395); // cl (w, cp)
+selectCodeEditor("top.v", 122, 395, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("top.v", 122, 395); // cl (w, cp)
+selectCodeEditor("top.v", 119, 396); // cl (w, cp)
+selectCodeEditor("top.v", 118, 391); // cl (w, cp)
+selectCodeEditor("top.v", 118, 391, false, false, false, false, true); // cl (w, cp) - Double Click
+typeControlKey((HResource) null, "top.v", 'c'); // cl (w, cp)
+selectCodeEditor("top.v", 142, 202); // cl (w, cp)
+typeControlKey((HResource) null, "top.v", 'v'); // cl (w, cp)
+selectCodeEditor("top.v", 396, 221); // cl (w, cp)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 104 seconds
+selectButton(PAResourceOtoP.PlanAheadTab_SHOW_FLOW_NAVIGATOR, "Flow Navigator"); // z (L, cp)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis]", 11, true); // u (Q, cp) - Node
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 10, false); // u (Q, cp)
+selectMenuItem(PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, "Run Behavioral Simulation"); // af (al, cp)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL
+// al (cp): Save Project: addNotify
+selectButton(PAResourceQtoS.SaveProjectUtils_SAVE, "Save"); // a (al)
+// bx (cp):  Save Constraints : addNotify
+// TclEventType: DG_GRAPH_STALE
+// e (cp):  Run Simulation : addNotify
+dismissDialog("Save Project"); // al (cp)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: LAUNCH_SIM
+// Tcl Message: launch_simulation 
+// Tcl Message: INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator... 
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/PDF学习资料/大学课程/计算机设计与实践/CPU/2020CPU/单周期/1.sim/sim_1/behav/xsim' INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs INFO: [SIM-utils-51] Simulation object is 'sim_1' 
+// Tcl Message: INFO: [USF-XSim-7] Finding pre-compiled libraries... INFO: [USF-XSim-11] File 'D:/Vivado/Vivado/2018.3/data/xsim/xsim.ini' copied to run dir:'D:/PDF学习资料/大学课程/计算机设计与实践/CPU/2020CPU/单周期/1.sim/sim_1/behav/xsim' 
+// TclEventType: LOAD_FEATURE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+selectButton(RDIResource.ProgressDialog_CANCEL, "Cancel"); // a (e)
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// Tcl Message: INFO: [SIM-utils-54] Inspecting design source files for 'mycpu_tb' in fileset 'sim_1'... INFO: [SIM-utils-43] Exported 'D:/PDF学习资料/大学课程/计算机设计与实践/CPU/2020CPU/单周期/1.sim/sim_1/behav/xsim/prgrom.mif' INFO: [SIM-utils-43] Exported 'D:/PDF学习资料/大学课程/计算机设计与实践/CPU/2020CPU/单周期/1.sim/sim_1/behav/xsim/inst_ram.coe' 
+// TclEventType: PACKAGER_UNLOAD_CORE
+// Tcl Message: INFO: [USF-XSim-97] Finding global include files... INFO: [USF-XSim-98] Fetching design files from 'sim_1'... INFO: [USF-XSim-2] XSim::Compile design INFO: [Common 17-41] Interrupt caught. Command should exit soon. INFO: [Vivado 12-5357] 'compile' step aborted INFO: [Common 17-344] 'launch_simulation' was cancelled 
+// CommandFailedException: ERROR: [Common 17-69] Command failed:  
+// 'd' command handler elapsed time: 5 seconds
+dismissDialog("Run Simulation"); // e (cp)
+selectCodeEditor("ALU.v", 69, 157); // cl (w, cp)
+// Elapsed time: 10 seconds
+selectCodeEditor("top.v", 89, 348); // cl (w, cp)
+selectCodeEditor("top.v", 89, 348, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("top.v", 126, 331); // cl (w, cp)
+selectCodeEditor("top.v", 254, 349); // cl (w, cp)
+selectCodeEditor("top.v", 61, 331); // cl (w, cp)
+selectCodeEditor("top.v", 283, 329); // cl (w, cp)
+typeControlKey((HResource) null, "top.v", 'v'); // cl (w, cp)
+selectCodeEditor("top.v", 35, 350); // cl (w, cp)
+selectCodeEditor("top.v", 294, 341); // cl (w, cp)
+selectCodeEditor("top.v", 66, 353); // cl (w, cp)
+selectCodeEditor("top.v", 66, 353, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("top.v", 69, 354); // cl (w, cp)
+selectCodeEditor("top.v", 70, 355, false, false, false, false, true); // cl (w, cp) - Double Click
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "CtrlUnit.v", 2); // k (j, cp)
+selectCodeEditor("CtrlUnit.v", 77, 273); // cl (w, cp)
+selectCodeEditor("CtrlUnit.v", 77, 273, false, false, false, false, true); // cl (w, cp) - Double Click
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 10, false); // u (Q, cp)
+selectMenuItem(PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, "Run Behavioral Simulation"); // af (al, cp)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL
+// al (cp): Save Project: addNotify
+selectButton(PAResourceQtoS.SaveProjectUtils_SAVE, "Save"); // a (al)
+// bx (cp):  Save Constraints : addNotify
+// TclEventType: DG_GRAPH_STALE
+// e (cp):  Run Simulation : addNotify
+dismissDialog("Save Project"); // al (cp)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: LAUNCH_SIM
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: launch_simulation 
+// Tcl Message: INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator... INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/PDF学习资料/大学课程/计算机设计与实践/CPU/2020CPU/单周期/1.sim/sim_1/behav/xsim' INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs INFO: [SIM-utils-51] Simulation object is 'sim_1' 
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// Tcl Message: INFO: [USF-XSim-7] Finding pre-compiled libraries... INFO: [USF-XSim-11] File 'D:/Vivado/Vivado/2018.3/data/xsim/xsim.ini' copied to run dir:'D:/PDF学习资料/大学课程/计算机设计与实践/CPU/2020CPU/单周期/1.sim/sim_1/behav/xsim' INFO: [SIM-utils-54] Inspecting design source files for 'mycpu_tb' in fileset 'sim_1'... INFO: [SIM-utils-43] Exported 'D:/PDF学习资料/大学课程/计算机设计与实践/CPU/2020CPU/单周期/1.sim/sim_1/behav/xsim/prgrom.mif' INFO: [SIM-utils-43] Exported 'D:/PDF学习资料/大学课程/计算机设计与实践/CPU/2020CPU/单周期/1.sim/sim_1/behav/xsim/inst_ram.coe' INFO: [USF-XSim-97] Finding global include files... INFO: [USF-XSim-98] Fetching design files from 'sim_1'... INFO: [USF-XSim-2] XSim::Compile design 
+// Tcl Message: INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/PDF学习资料/大学课程/计算机设计与实践/CPU/2020CPU/单周期/1.sim/sim_1/behav/xsim' 
+// Tcl Message: "xvlog --incr --relax -prj mycpu_tb_vlog.prj" 
+// Tcl Message: INFO: [USF-XSim-69] 'compile' step finished in '2' seconds INFO: [USF-XSim-99] Step results log file:'D:/PDF学习资料/大学课程/计算机设计与实践/CPU/2020CPU/单周期/1.sim/sim_1/behav/xsim/xvlog.log' 
+// Tcl Message: ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or 'D:/PDF学习资料/大学课程/计算机设计与实践/CPU/2020CPU/单周期/1.sim/sim_1/behav/xsim/xvlog.log' file for more information. ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation. 
+// Tcl Message: ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors. 
+// CommandFailedException: ERROR: [Common 17-69] Command failed: ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.  
+// HOptionPane Error: 'ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.  (Run Simulation)'
+// 'd' command handler elapsed time: 7 seconds
+selectButton("RDIResource.ProgressDialog_ERROR_ENCOUNTERED_PLEASE_SEE_TCL_OK", "OK"); // JButton (C, I)
+// a (cp): Critical Messages: addNotify
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f (a)
+dismissDialog("Critical Messages"); // a (cp)
+selectTab((HResource) null, (HResource) null, "Log", 2); // aI (aF, cp)
