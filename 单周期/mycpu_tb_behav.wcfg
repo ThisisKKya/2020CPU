@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="mycpu_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="mycpu_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="16002933750fs"></ZoomStartTime>
+      <ZoomEndTime time="16125307085fs"></ZoomEndTime>
+      <Cursor1Time time="16045700000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="252"></NameColumnWidth>
+      <ValueColumnWidth column_width="156"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="42" />
+   <wave_markers>
+      <marker time="7041000000" label="" />
+      <marker time="7020000000" label="" />
+   </wave_markers>
+   <wvobject fp_name="/mycpu_tb/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mycpu_tb/soc_clk" type="logic">
+      <obj_property name="ElementShortName">soc_clk</obj_property>
+      <obj_property name="ObjectShortName">soc_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mycpu_tb/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mycpu_tb/resetn" type="logic">
+      <obj_property name="ElementShortName">resetn</obj_property>
+      <obj_property name="ObjectShortName">resetn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mycpu_tb/ref_wb_pc" type="array">
+      <obj_property name="ElementShortName">ref_wb_pc[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ref_wb_pc[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mycpu_tb/debug_wb_pc" type="array">
+      <obj_property name="ElementShortName">debug_wb_pc[31:0]</obj_property>
+      <obj_property name="ObjectShortName">debug_wb_pc[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mycpu_tb/soc_lite/IMEM/Ins" type="array">
+      <obj_property name="ElementShortName">Ins[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Ins[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mycpu_tb/soc_lite/NPCDO" type="array">
+      <obj_property name="ElementShortName">NPCDO[31:0]</obj_property>
+      <obj_property name="ObjectShortName">NPCDO[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mycpu_tb/soc_lite/IM2500" type="array">
+      <obj_property name="ElementShortName">IM2500[25:0]</obj_property>
+      <obj_property name="ObjectShortName">IM2500[25:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mycpu_tb/soc_lite/NPCOp" type="array">
+      <obj_property name="ElementShortName">NPCOp[1:0]</obj_property>
+      <obj_property name="ObjectShortName">NPCOp[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mycpu_tb/soc_lite/IM3126" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">IM3126[5:0]</obj_property>
+      <obj_property name="ObjectShortName">IM3126[5:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+      <obj_property name="label">OP</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mycpu_tb/ref_wb_rf_wnum" type="array">
+      <obj_property name="ElementShortName">ref_wb_rf_wnum[4:0]</obj_property>
+      <obj_property name="ObjectShortName">ref_wb_rf_wnum[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mycpu_tb/debug_wb_rf_wen" type="logic">
+      <obj_property name="ElementShortName">debug_wb_rf_wen</obj_property>
+      <obj_property name="ObjectShortName">debug_wb_rf_wen</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mycpu_tb/soc_lite/RFWr" type="logic">
+      <obj_property name="ElementShortName">RFWr</obj_property>
+      <obj_property name="ObjectShortName">RFWr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mycpu_tb/debug_wb_rf_wnum" type="array">
+      <obj_property name="ElementShortName">debug_wb_rf_wnum[4:0]</obj_property>
+      <obj_property name="ObjectShortName">debug_wb_rf_wnum[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mycpu_tb/ref_wb_rf_wdata" type="array">
+      <obj_property name="ElementShortName">ref_wb_rf_wdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ref_wb_rf_wdata[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mycpu_tb/debug_wb_rf_wdata" type="array">
+      <obj_property name="ElementShortName">debug_wb_rf_wdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">debug_wb_rf_wdata[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mycpu_tb/soc_lite/DATAMEM/MemWrite" type="logic">
+      <obj_property name="ElementShortName">MemWrite</obj_property>
+      <obj_property name="ObjectShortName">MemWrite</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mycpu_tb/soc_lite/DATAMEM/WriteData" type="array">
+      <obj_property name="ElementShortName">WriteData[31:0]</obj_property>
+      <obj_property name="ObjectShortName">WriteData[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mycpu_tb/soc_lite/DATAMEM/ReadData" type="array">
+      <obj_property name="ElementShortName">ReadData[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ReadData[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mycpu_tb/soc_lite/DATAMEM/address" type="array">
+      <obj_property name="ElementShortName">address[31:0]</obj_property>
+      <obj_property name="ObjectShortName">address[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mycpu_tb/soc_lite/ALUDO" type="array">
+      <obj_property name="ElementShortName">ALUDO[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ALUDO[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mycpu_tb/soc_lite/ALUOp" type="array">
+      <obj_property name="ElementShortName">ALUOp[3:0]</obj_property>
+      <obj_property name="ObjectShortName">ALUOp[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mycpu_tb/soc_lite/debug_ALU_A" type="array">
+      <obj_property name="ElementShortName">debug_ALU_A[31:0]</obj_property>
+      <obj_property name="ObjectShortName">debug_ALU_A[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mycpu_tb/soc_lite/ASel" type="logic">
+      <obj_property name="ElementShortName">ASel</obj_property>
+      <obj_property name="ObjectShortName">ASel</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mycpu_tb/soc_lite/IM2521" type="array">
+      <obj_property name="ElementShortName">IM2521[4:0]</obj_property>
+      <obj_property name="ObjectShortName">IM2521[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mycpu_tb/soc_lite/RF/a1" type="array">
+      <obj_property name="ElementShortName">a1[4:0]</obj_property>
+      <obj_property name="ObjectShortName">a1[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mycpu_tb/soc_lite/RD1" type="array">
+      <obj_property name="ElementShortName">RD1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">RD1[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mycpu_tb/soc_lite/debug_ALU_B" type="array">
+      <obj_property name="ElementShortName">debug_ALU_B[31:0]</obj_property>
+      <obj_property name="ObjectShortName">debug_ALU_B[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mycpu_tb/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mycpu_tb/soc_lite/EXTOp" type="logic">
+      <obj_property name="ElementShortName">EXTOp</obj_property>
+      <obj_property name="ObjectShortName">EXTOp</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mycpu_tb/soc_lite/EXTDO" type="array">
+      <obj_property name="ElementShortName">EXTDO[31:0]</obj_property>
+      <obj_property name="ObjectShortName">EXTDO[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mycpu_tb/soc_lite/IM1500" type="array">
+      <obj_property name="ElementShortName">IM1500[15:0]</obj_property>
+      <obj_property name="ObjectShortName">IM1500[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mycpu_tb/soc_lite/WRSel" type="array">
+      <obj_property name="ElementShortName">WRSel[1:0]</obj_property>
+      <obj_property name="ObjectShortName">WRSel[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mycpu_tb/soc_lite/WDSel" type="array">
+      <obj_property name="ElementShortName">WDSel[1:0]</obj_property>
+      <obj_property name="ObjectShortName">WDSel[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mycpu_tb/soc_lite/IM0500" type="array">
+      <obj_property name="ElementShortName">IM0500[5:0]</obj_property>
+      <obj_property name="ObjectShortName">IM0500[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mycpu_tb/soc_clk" type="logic">
+      <obj_property name="ElementShortName">soc_clk</obj_property>
+      <obj_property name="ObjectShortName">soc_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mycpu_tb/debug_wb_err" type="logic">
+      <obj_property name="ElementShortName">debug_wb_err</obj_property>
+      <obj_property name="ObjectShortName">debug_wb_err</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mycpu_tb/global_err" type="logic">
+      <obj_property name="ElementShortName">global_err</obj_property>
+      <obj_property name="ObjectShortName">global_err</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mycpu_tb/trace_ref" type="array">
+      <obj_property name="ElementShortName">trace_ref[31:0]</obj_property>
+      <obj_property name="ObjectShortName">trace_ref[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mycpu_tb/trace_cmp_flag" type="logic">
+      <obj_property name="ElementShortName">trace_cmp_flag</obj_property>
+      <obj_property name="ObjectShortName">trace_cmp_flag</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mycpu_tb/soc_clk" type="logic">
+      <obj_property name="ElementShortName">soc_clk</obj_property>
+      <obj_property name="ObjectShortName">soc_clk</obj_property>
+   </wvobject>
+</wave_config>
